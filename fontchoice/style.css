@@ -1,0 +1,49 @@
+/*this title is for information about the main title*/
+
+h1{
+  	font-size: 36px;
+    text-transform: none;
+    font-family: 'Sacramento';
+  }
+
+h2{
+font-family: 'Lora',;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-transform: uppercase;
+}
+/*this title is for information about the font choice*/
+h3{
+font-size: 13px;
+color:#d9d9d9;
+line-height: 10px;
+margin-left: -20%;
+}
+/*paragraph text*/
+p{
+font-family: "Lora";
+font-weight: 100;
+font-size: 14px;
+line-height: 24px;
+  }
+
+
+
+
+/*ignore things below for now*/
+.row {
+  display: flex;
+}
+
+.column {
+/*   flex: 33%;*/
+ padding-left: 30%;
+padding-right: 30%;
+
+}
+div{
+  column-count:1;
+   column-fill: inherit;
+  column-width:30%;
+}
